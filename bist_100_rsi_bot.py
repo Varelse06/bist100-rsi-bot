@@ -21,7 +21,7 @@ Nasıl kullanılır
 # 1️⃣  AYARLAR
 ############################################################
 TELEGRAM_TOKEN = "7881664727:AAEuR2uBTNoOlYg7B32b8JPOtwOO2f9Ryxw"
-CHAT_ID        = "7625866728"  # ← BURAYA kendi chat ID'ni yaz
+CHAT_ID        = "-1002727685944"  # ← BURAYA kendi chat ID'ni yaz
 
 LOWER_THRESHOLD = 35
 UPPER_THRESHOLD = 70
