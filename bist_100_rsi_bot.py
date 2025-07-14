@@ -76,7 +76,7 @@ class BistRsiBot:
         await self.send("BIST 100 RSI botu başlatıldı ✅")
         while True:
             try:
-                value = 32.5
+                value = await self.fetch_rsi()
                 now   = datetime.now().strftime("%Y‑%m‑d %H:%M")
 
                 if value < LOWER_THRESHOLD and self.last_state != "low":
